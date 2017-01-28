@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pick a music file!</string>
+    <string name="edit_message"></string>
+    <string name="button_send"></string>
+    <string name="action_favorite"></string>
+    <string name="action_settings">Settings</string>
+
+</resources>

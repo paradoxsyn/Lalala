@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toastlayout"
+    android:background="@color/ryze_body">
+
+    <ImageView
+        android:id="@+id/teacher"
+        android:layout_width="95dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ryzeteachertoast"/>
+    <com.example.rabithole.losu.AutoScaleTextView
+        android:id="@+id/cloudmessage"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:textColor="@color/ryze_title"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:background="@drawable/cloudmessage" />
+
+
+</LinearLayout>

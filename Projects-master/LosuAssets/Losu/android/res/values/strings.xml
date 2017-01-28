@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Losu</string>
+    <string name="self_destruct">Lets get Started</string>
+    <string name="button_1">Quick like Lightning</string>
+    <string name="button_2">Psychological Conditioning</string>
+    <string name="button_3">Range</string>
+    <string name="button_4">About</string>
+    <string name="title">League Optional Schooling Utility</string>
+    <string name="reflextitle">Please choose a champion</string>
+    <string name="annie">Annie</string>
+    <string name="ryze">Ryze</string>
+    <string name="ryze_start">Start</string>
+    <string name="ryze_stop">Stop</string>
+    <string name="ryze_title">Ryze</string>
+    <string name="cooldown10">10% Cooldown</string>
+    <string name="cooldown20">20% Cooldown</string>
+    <string name="cooldown30">30% Cooldown</string>
+    <string name="cooldown40">40% Cooldown</string>
+    <string name="level">Level</string>
+    <string name="crystals">Crystals:</string>
+
+    <string-array name="levels_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

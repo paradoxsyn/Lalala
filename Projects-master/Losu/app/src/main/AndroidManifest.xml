@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dj.rabithole.losu">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ryzeicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:name="dj.rabithole.losu.PsychController">
+
+        <activity android:name="dj.rabithole.losu.MainActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name="dj.rabithole.losu.Psych">
+            <intent-filter>
+                <action android:name="android.intent.action.DISPLAY"/>
+                <action android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="dj.rabithole.losu.PsychResponse">
+            <intent-filter>
+                <action android:name="android.intent.action.DISPLAY"/>
+                <action android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="dj.rabithole.losu.Range">
+            <action android:name="android.intent.action.DISPLAY" >
+
+            </action>
+
+        </activity>
+
+        <activity android:name="dj.rabithole.losu.PickChamp" >
+            <action android:name="android.intent.action.DISPLAY" />
+        </activity>
+        
+        <activity android:name="dj.rabithole.losu.Ryze">
+        <action android:name="android.intent.action.DISPLAY" >
+
+        </action>
+        </activity>
+
+        <activity android:name="com.example.rabithole.dj.rabithole.losu.RyzeWeb">
+            <action android:name="android.intent.action.DISPLAY" >
+
+            </action>
+
+        </activity>
+
+    </application>
+
+</manifest>

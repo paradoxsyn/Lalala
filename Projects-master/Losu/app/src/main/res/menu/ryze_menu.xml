@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cooldown10"
+        android:title="@string/cooldown10"
+        >
+    </item>
+    <item
+        android:id="@+id/cooldown20"
+        android:title="@string/cooldown20"
+        >
+    </item>
+    <item
+        android:id="@+id/cooldown30"
+        android:title="@string/cooldown30"
+        >
+    </item>
+    <item
+        android:id="@+id/cooldown40"
+        android:title="@string/cooldown40"
+        >
+    </item>
+
+    <item
+        android:id="@+id/information"
+        android:orderInCategory="100"
+        android:title="@string/ryze_title"
+        app:showAsAction="always"
+        android:icon="@drawable/infoicon"
+        />
+
+</menu>

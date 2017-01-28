@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pitch_black">#FF000000</color>
+    <color name="title_color">#f45042</color>
+    <color name="button_color">#d142f4</color>
+    <color name="ryze_bar">#B8B0EF</color>
+    <color name="ryze_body">#1A1043</color>
+    <color name="ryze_title">#E5C5D3</color>
+</resources>

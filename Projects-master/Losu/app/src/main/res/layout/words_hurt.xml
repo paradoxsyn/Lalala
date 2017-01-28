@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ivern">
+
+    <Button
+        android:id="@+id/writeResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Make a Word Odyssey!" />
+    <TextView
+        android:id="@+id/unlockone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/writeResponse"
+        android:textSize="15dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/viewResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Tend the fields" />
+    <TextView
+        android:id="@+id/unlocktwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewResponse"
+        android:textSize="15dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/crystals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:padding="20dp" />
+
+</RelativeLayout>

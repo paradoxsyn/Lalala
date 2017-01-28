@@ -1,0 +1,38 @@
+how 2 git
+
+git status <-- check status of changed files
+git add . <-- add current directory and EVERYTHING under it
+ALT git add losu/ <-- add directory
+ALT ALT git add losu/whatAbitch.derek <-- add a file
+git status <-- make sure you added the things you wanted and not the stuff you didnt
+git commit -m "commit message here" <-- write a MEANINGFUL commit message dumbass
+git push <-- send it on it's way
+
+other fun things
+
+git checkout master <-- go back to master branch
+git checkout -b branchName <-- checkout a new branch
+git branch -D branchName <-- delete LOCAL copy of branch. you will fuck this up
+git push origin :branchName <-- you will delete the REMOTE branch. DONT DELETE MASTER YOU IDIOT
+
+create a staging area
+
+master
+ --> staging / develop
+    --> feature branch
+    --> bugfix branch
+
+ DON'T FORGET TO MERGE THE DAMN BRANCH INTO THE PARENT
+
+ AFTER YOU MERGE
+
+ git checkout master / develop / merge branch name
+ git pull <-- update with the changes from the merged branch
+
+ git checkout -b branchName2 wash rinse repeat.
+
+ don't forget to DELETE THE REMOTE when you are done with it and merge it.
+ You should delete the remote branch from github
+
+ also clone your repo every week so you have a backup. real easy to fuck it up and lose your project
+ 

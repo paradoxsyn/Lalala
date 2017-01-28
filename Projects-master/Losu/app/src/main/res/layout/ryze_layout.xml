@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ryze_body"
+    >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ryze_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/ryze_bar"
+        android:elevation="4dp"
+        app:popupTheme="@style/AppTheme.ActionBar"
+        android:theme="@style/AppTheme.ActionBar"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="@color/ryze_title"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingLeft="45dp"
+            android:textSize="18dp"
+            android:text="@string/crystals"
+            android:textStyle="italic"
+
+        />
+        <TextView
+            android:id="@+id/score"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingLeft="5dp"
+
+            />
+    </android.support.v7.widget.Toolbar>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/ryze_body"
+    android:layout_weight="0.5"
+    android:weightSum="4"
+    android:layout_height="0dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lightningpng"/>
+
+    <Button
+        android:id="@+id/ryze_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginRight="80dp"
+        android:layout_weight="0"
+        android:background="@drawable/ryzestartstop"
+        android:text="@string/ryze_start"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/ryze_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="80dp"
+        android:layout_weight="0"
+        android:background="@drawable/ryzestartstopinvert"
+        android:text="@string/ryze_stop"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/ryze_1"
+        android:layout_width="wrap_content"
+        android:background="@drawable/overload"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/ryze_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/runeprison"
+        android:layout_marginRight="55dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+         />
+
+    <ImageButton
+        android:id="@+id/ryze_3"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/spellflux"
+        android:layout_marginLeft="55dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/ryze_4"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/realmwarp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content">
+
+    </ImageButton>
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/rune"
+        android:layout_height="50dp"
+        android:tag="rune0"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/ryzeicon"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ryzetimer1"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginEnd="165dp"
+            android:layout_marginRight="165dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/ryze_title"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ryzetimer2"
+            android:textStyle="italic|bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:textColor="@color/ryze_title"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ryzetimer3"
+            android:textStyle="italic|bold"
+            android:textColor="@color/ryze_title"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-60dp"
+            android:layout_marginRight="-60dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ryzetimer4"
+            android:textStyle="italic|bold"
+            android:textColor="@color/ryze_title"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-165dp"
+            android:layout_marginRight="-165dp"
+            android:layout_gravity="center" />
+
+        <Spinner
+            android:id="@+id/q_spinner"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ryze_bar"
+            android:popupBackground="@color/ryze_bar"
+            android:prompt="@string/level"/>
+        <Spinner
+            android:id="@+id/w_spinner"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/ryze_bar"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/ryze_bar"
+            android:prompt="@string/level"/>
+        <Spinner
+            android:id="@+id/e_spinner"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/ryze_bar"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/ryze_bar"
+            android:prompt="@string/level"/>
+        <Spinner
+            android:id="@+id/r_spinner"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/ryze_bar"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/ryze_bar"
+            android:prompt="@string/level"/>
+
+</FrameLayout>
+
+</LinearLayout>
+
+
+
+
