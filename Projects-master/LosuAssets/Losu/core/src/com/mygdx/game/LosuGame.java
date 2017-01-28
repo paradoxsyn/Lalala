@@ -52,7 +52,6 @@ public class LosuGame extends Game {
                 //} else {
                 //    myGameCallback.onStartSomeActivity(someInteger, someString);
                 //}
-
             }
             //else {
             //Log.e("MyGame", "To use this class you must implement MyGameCallback!")

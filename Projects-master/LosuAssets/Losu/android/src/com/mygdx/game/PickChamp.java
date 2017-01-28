@@ -8,10 +8,6 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 
 /**
@@ -70,8 +66,9 @@ public class PickChamp extends AppCompatActivity{
 
 
         if(position==0 && newString.equals("Reaction")) {
-            //Intent intent = new Intent(getApplicationContext(), com.mygdx.game.Ryze.class);
-            //startActivity(intent);
+            Intent intent = new Intent(getApplicationContext(), ChooseLevel.class);
+            startActivity(intent);
+
         }
         else if(position==0 && newString.equals("Range")) {
             Intent intent = new Intent(getApplicationContext(), com.mygdx.game.Range.class);

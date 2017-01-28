@@ -46,6 +46,12 @@
         <activity android:name="com.mygdx.game.PickChamp" >
             <action android:name="android.intent.action.DISPLAY" />
         </activity>
+        <activity android:name="com.mygdx.game.Ryze" >
+            <action android:name="android.intent.action.DISPLAY" />
+        </activity>
+        <activity android:name="com.mygdx.game.ChooseLevel" >
+            <action android:name="android.intent.action.DISPLAY" />
+        </activity>
     </application>
 
 </manifest>

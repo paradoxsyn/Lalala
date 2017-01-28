@@ -22,6 +22,7 @@ import org.w3c.dom.Text;
 public class Assets {
 
     public static Texture losubackground;
+    public static Texture ryzebackground;
     public static Texture react;
     public static TextureRegion backgroundRegion;
     public static Drawable but1;
@@ -42,6 +43,7 @@ public class Assets {
     public static void load() {
 
         losubackground = loadTexture("heimertitle.jpg");
+        //ryzebackground = loadTexture()
         react = loadTexture("ryzeicon.jpg");
         logo = loadTexture("losulogo.png");
         //poro = loadTexture("poroo.png");
