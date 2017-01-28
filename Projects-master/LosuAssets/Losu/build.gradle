@@ -6,10 +6,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
-
 allprojects {
     apply plugin: "eclipse"
     apply plugin: "idea"
@@ -31,7 +30,6 @@ allprojects {
         maven { url "https://oss.sonatype.org/content/repositories/releases/" }
     }
 }
-
 project(":android") {
     apply plugin: "android"
 
@@ -60,7 +58,6 @@ project(":android") {
 
     }
 }
-
 project(":core") {
     apply plugin: "java"
 
@@ -72,7 +69,9 @@ project(":core") {
         compile fileTree(dir: '../libs', include: '*.jar')
     }
 }
-
 tasks.eclipse.doLast {
     delete ".project"
+}
+
+dependencies {
 }

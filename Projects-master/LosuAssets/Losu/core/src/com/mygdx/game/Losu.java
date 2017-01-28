@@ -10,12 +10,14 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
+import com.badlogic.gdx.graphics.g3d.utils.AnimationController;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
@@ -64,9 +66,12 @@ public class Losu extends ScreenAdapter {
 	float h;
 	Image logo;
 	float elapsedTime = 0f;
+	float stateTime;
 	Vector2 startPosition = new Vector2(), targetPosition = new Vector2(), position = new Vector2();
 	//Image poro;
 	AnimatedImage test;
+	boolean anim;
+
 
 
 
@@ -180,9 +185,9 @@ public class Losu extends ScreenAdapter {
 		});
 
 		test = new AnimatedImage(Assets.poroanim);
-
 		//test.addAction((Actions.repeat(RepeatAction.FOREVER,Actions.addAction(poromovedown))));
 		test.addAction(repeat(RepeatAction.FOREVER,sequence(delay(30f),poromoveup,delay(4f),poromovedown,delay(30f))));
+
 		//test.addAction(Actions.repeat(RepeatAction.FOREVER,Actions.addAction(poromoveup)));
 		//test.addAction((Actions.addAction(poromoveup)));
 		//test.addAction(Actions.delay(4f,poromovedown));

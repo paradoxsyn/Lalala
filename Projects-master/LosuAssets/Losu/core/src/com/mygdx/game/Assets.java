@@ -31,9 +31,9 @@ public class Assets {
     public static TextureRegion poroeye;
     public static TextureRegion poroo;
     public static Animation<TextureRegion> poroanim;
+    public static Animation<TextureRegion> porostop;
     float w;
     float h;
-
 
     public static Texture loadTexture (String file) {
         return new Texture(Gdx.files.internal(file));
@@ -48,7 +48,8 @@ public class Assets {
         poroall = new TextureAtlas(Gdx.files.internal("porodata.txt"));
         poroo = poroall.findRegion("0001");
         poroeye = poroall.findRegion("0002");
-        poroanim = new Animation<TextureRegion>(0.33f,poroo,poroeye);
+        poroanim = new Animation<TextureRegion>(1.5f,poroo,poroeye);
+        //porostop = new Animation<TextureRegion>(0f,poroanim.getKeyFrames());
         but1 = new TextureRegionDrawable(new TextureRegion(react));
         backgroundRegion = new TextureRegion(losubackground, 0, 0, 0, 0);
 
