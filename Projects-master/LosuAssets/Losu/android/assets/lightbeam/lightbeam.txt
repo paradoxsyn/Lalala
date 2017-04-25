@@ -1,0 +1,82 @@
+lightbeam.png
+size: 1208, 906
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lightbeam
+  rotate: false
+  xy: 1, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 1
+Lightbeam
+  rotate: false
+  xy: 303, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 2
+Lightbeam
+  rotate: false
+  xy: 303, 303
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 3
+Lightbeam
+  rotate: false
+  xy: 303, 605
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 4
+Lightbeam
+  rotate: false
+  xy: 605, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 5
+Lightbeam
+  rotate: false
+  xy: 605, 303
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 6
+Lightbeam
+  rotate: false
+  xy: 605, 605
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 7
+Lightbeam
+  rotate: false
+  xy: 907, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 8
+Lightbeam
+  rotate: false
+  xy: 907, 303
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 9
+Lightbeam
+  rotate: false
+  xy: 1, 303
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 10
+Lightbeam
+  rotate: false
+  xy: 1, 605
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 11

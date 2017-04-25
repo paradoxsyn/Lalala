@@ -1,0 +1,278 @@
+runeload.png
+size: 1920, 204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loadbar
+  rotate: false
+  xy: 1, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar1
+  rotate: false
+  xy: 1, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar2
+  rotate: false
+  xy: 865, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar3
+  rotate: false
+  xy: 1249, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar4
+  rotate: false
+  xy: 1249, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar4
+  rotate: false
+  xy: 1345, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar5
+  rotate: false
+  xy: 1345, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar5
+  rotate: false
+  xy: 1441, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar5
+  rotate: false
+  xy: 1441, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 2
+loadbar5
+  rotate: false
+  xy: 1537, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 3
+loadbar6
+  rotate: false
+  xy: 1537, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar8
+  rotate: false
+  xy: 1633, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar8
+  rotate: false
+  xy: 1633, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar9
+  rotate: false
+  xy: 1729, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar9
+  rotate: false
+  xy: 1729, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar11
+  rotate: false
+  xy: 97, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar11
+  rotate: false
+  xy: 97, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 2
+loadbar11
+  rotate: false
+  xy: 193, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 3
+loadbar11
+  rotate: false
+  xy: 193, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 4
+loadbar11
+  rotate: false
+  xy: 289, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 5
+loadbar12
+  rotate: false
+  xy: 289, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar14
+  rotate: false
+  xy: 385, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar14
+  rotate: false
+  xy: 385, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar14
+  rotate: false
+  xy: 481, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 2
+loadbar14
+  rotate: false
+  xy: 481, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 3
+loadbar15
+  rotate: false
+  xy: 577, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar15
+  rotate: false
+  xy: 577, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+loadbar15
+  rotate: false
+  xy: 673, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: 2
+loadbar16
+  rotate: false
+  xy: 673, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar17
+  rotate: false
+  xy: 769, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar18
+  rotate: false
+  xy: 769, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar19
+  rotate: false
+  xy: 865, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar20
+  rotate: false
+  xy: 961, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar22
+  rotate: false
+  xy: 961, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar23
+  rotate: false
+  xy: 1057, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar24
+  rotate: false
+  xy: 1057, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar25
+  rotate: false
+  xy: 1153, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbar26
+  rotate: false
+  xy: 1153, 103
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1
+loadbarfull
+  rotate: false
+  xy: 1825, 1
+  size: 94, 100
+  orig: 100, 100
+  offset: 4, 0
+  index: -1

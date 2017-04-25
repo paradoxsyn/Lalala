@@ -1,5 +1,6 @@
 package com.mygdx.game;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,6 +22,8 @@ public class ChooseLevel extends AppCompatActivity {
         final Button but3 = (Button) findViewById(R.id.button_3);
         final Button but4 = (Button) findViewById(R.id.button_4);
 
+        Bundle extras = getIntent().getExtras();
+
         Typeface customFont1 = Typeface.createFromAsset(getAssets(), "fonts/Pacifico.ttf");
 
         but1.setTypeface(customFont1);
@@ -30,6 +33,8 @@ public class ChooseLevel extends AppCompatActivity {
 
         but1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Ryze.class);
+                startActivity(intent);
             }
         });
     }

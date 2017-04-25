@@ -1,0 +1,61 @@
+claw.png
+size: 264, 238
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+claw
+  rotate: false
+  xy: 1, 1
+  size: 254, 104
+  orig: 254, 104
+  offset: 0, 0
+  index: -1
+claw
+  rotate: false
+  xy: 1, 107
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+claw
+  rotate: false
+  xy: 1, 173
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+claw
+  rotate: false
+  xy: 67, 107
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+claw
+  rotate: false
+  xy: 67, 173
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+claw
+  rotate: false
+  xy: 133, 107
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+claw
+  rotate: false
+  xy: 133, 173
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 6
+claw
+  rotate: false
+  xy: 199, 107
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 7

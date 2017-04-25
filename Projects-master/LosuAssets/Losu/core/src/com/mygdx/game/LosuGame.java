@@ -1,11 +1,14 @@
 package com.mygdx.game;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
-import sun.rmi.runtime.Log;
+import com.mygdx.game.resources.MusicPlayer;
+import com.mygdx.game.states.StateManager;
+import com.mygdx.game.ui.Loader;
 
 /**
  * Created by Rabithole on 1/22/2017.
@@ -14,39 +17,49 @@ import sun.rmi.runtime.Log;
 public class LosuGame extends Game {
 
     public SpriteBatch batcher;
-    public BitmapFont font;
     public OrthographicCamera camera;
-    public boolean fuck;
+    public static boolean bounceback;
+    public AssetManager manager;
+    public MusicPlayer player;
+    public float getPlayerPostition;
+    public gameCallback gameCallback;
+
+    public LosuGame(gameCallback callback){
+        this.gameCallback = callback;
+    }
 
     @Override
     public void create(){
+        manager = new AssetManager();
         batcher = new SpriteBatch();
-        Assets.load();
-        setScreen(new Losu(this));
+        //setScreen(new LosuScrn(this));
+        setScreen(new Loader(this));
+        player = new MusicPlayer();
+        getPlayerPostition = gameCallback.getPos();
+        player.setPosition(getPlayerPostition);
+        player.play();
     }
-    // Define an interface for your various callbacks to the android launcher
-    public interface MyGameCallback {
-        public void onStartActivityA();
-        public void onStartActivityB();
-        public void onStartSomeActivity(int someParameter, String someOtherParameter);
+
+    @Override
+    public void render() {
+
+        super.render();
     }
 
     // Local variable to hold the callback implementation
-    public MyGameCallback myGameCallback;
 
     // ** Additional **
     // Setter for the callback
-    public void setMyGameCallback(MyGameCallback callback) {
-        myGameCallback = callback;
+    public void setMyGameCallback(gameCallback callback) {
+        gameCallback = callback;
     }
 
-    public void someMethod() {
+    public void callBackListener() {
         // check the calling class has actually implemented MyGameCallback
-        if (myGameCallback != null) {
-
+        if (gameCallback != null) {
             // initiate which ever callback method you need.
-            if (fuck == true) {
-                myGameCallback.onStartActivityA();
+            if (bounceback == true) {
+                gameCallback.onStartActivityA(player);
                 //} else if () {
                 //    myGameCallback.onStartActivityB();
                 //} else {
@@ -59,9 +72,4 @@ public class LosuGame extends Game {
     }
 
 
-    @Override
-    public void render() {
-
-        super.render();
-    }
 }

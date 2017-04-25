@@ -19,9 +19,20 @@ android {
     }
     defaultConfig {
         applicationId "com.mygdx.game"
-        minSdkVersion 9
+        minSdkVersion 23
         targetSdkVersion 24
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+
+    aaptOptions {
+        noCompress "ogx"
+    }
+
 }
 // called every time gradle gets executed, takes the native dependencies of
 // the natives configuration, and extracts them to the proper libs/ folders
@@ -127,5 +138,12 @@ dependencies {
     compile 'com.google.code.gson:gson:2.8.0'
     compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
     compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
-    compile fileTree(dir: '../libs', include: '*.jar')
+    compile fileTree(include: '*.jar', dir: '../libs')
+    compile fileTree(include: '*.jar', dir: 'libs')
+    compile 'org.jcraft:jorbis:0.0.17'
+    compile 'net.lingala.zip4j:zip4j:1.3.2'
+    compile 'org.json:json:20160810'
+    compile 'org.tukaani:xz:1.6'
+    compile 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
+    //compile 'com.badlogicgames.gdx:gdx-tools:1.9.6'
 }

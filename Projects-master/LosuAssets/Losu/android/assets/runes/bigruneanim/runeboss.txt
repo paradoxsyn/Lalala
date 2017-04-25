@@ -1,0 +1,117 @@
+runeboss.png
+size: 582, 1915
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bigrune
+  rotate: false
+  xy: 1, 484
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 1
+bigrune
+  rotate: false
+  xy: 1, 1201
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 2
+bigrune
+  rotate: false
+  xy: 292, 1679
+  size: 289, 235
+  orig: 512, 256
+  offset: 120, 21
+  index: 3
+bigrune
+  rotate: false
+  xy: 292, 1441
+  size: 289, 236
+  orig: 512, 256
+  offset: 120, 20
+  index: 4
+bigrune
+  rotate: false
+  xy: 1, 244
+  size: 289, 238
+  orig: 512, 256
+  offset: 120, 18
+  index: 5
+bigrune
+  rotate: false
+  xy: 292, 1
+  size: 289, 240
+  orig: 512, 256
+  offset: 120, 16
+  index: 6
+bigrune
+  rotate: false
+  xy: 1, 1
+  size: 289, 241
+  orig: 512, 256
+  offset: 120, 15
+  index: 7
+bigrune
+  rotate: false
+  xy: 292, 1202
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 8
+bigrune
+  rotate: false
+  xy: 292, 243
+  size: 289, 240
+  orig: 512, 256
+  offset: 120, 16
+  index: 9
+bigrune
+  rotate: false
+  xy: 292, 485
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 10
+bigrune
+  rotate: false
+  xy: 1, 1440
+  size: 289, 236
+  orig: 512, 256
+  offset: 120, 20
+  index: 11
+bigrune
+  rotate: false
+  xy: 1, 1678
+  size: 289, 235
+  orig: 512, 256
+  offset: 120, 21
+  index: 12
+bigrune
+  rotate: false
+  xy: 1, 723
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 13
+bigrune
+  rotate: false
+  xy: 292, 724
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 14
+bigrune
+  rotate: false
+  xy: 1, 962
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 15
+bigrune
+  rotate: false
+  xy: 292, 963
+  size: 289, 237
+  orig: 512, 256
+  offset: 120, 19
+  index: 16

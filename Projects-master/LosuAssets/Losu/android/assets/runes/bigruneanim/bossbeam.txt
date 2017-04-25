@@ -1,0 +1,61 @@
+bossbeam.png
+size: 235, 242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bossbeam
+  rotate: false
+  xy: 1, 209
+  size: 64, 28
+  orig: 64, 64
+  offset: 0, 36
+  index: 1
+bossbeam
+  rotate: false
+  xy: 67, 143
+  size: 64, 48
+  orig: 64, 64
+  offset: 0, 16
+  index: 2
+bossbeam
+  rotate: false
+  xy: 67, 193
+  size: 64, 48
+  orig: 64, 64
+  offset: 0, 16
+  index: 3
+bossbeam
+  rotate: false
+  xy: 170, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+bossbeam
+  rotate: false
+  xy: 170, 67
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+bossbeam
+  rotate: false
+  xy: 170, 133
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 6
+bossbeam
+  rotate: false
+  xy: 1, 1
+  size: 167, 140
+  orig: 256, 256
+  offset: 45, 35
+  index: 7
+bossbeam
+  rotate: false
+  xy: 1, 143
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 8

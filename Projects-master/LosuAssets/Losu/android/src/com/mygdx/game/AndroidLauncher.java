@@ -1,37 +1,47 @@
 package com.mygdx.game;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.View;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.TextView;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.mygdx.game.Losu;
+import com.mygdx.game.resources.MusicPlayer;
 
-public class AndroidLauncher extends AndroidApplication implements LosuGame.MyGameCallback {
+
+public class AndroidLauncher extends AndroidApplication implements gameCallback {
+	public boolean test = false;
+	public float pos = 0;
+	Bundle extras;
+	LosuGame game;
+	AndroidLauncher al;
+
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		al = this;
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 		config.useWakelock = true;
-
 		// create an instance of MyGame, and set the callback
-		LosuGame game = new LosuGame();
+		game = new LosuGame(al);
 		// Since AndroidLauncher implements MyGame.MyGameCallback, we can just pass 'this' to the callback setter.
+		//RyzeGame2 game = new RyzeGame2();
 		game.setMyGameCallback(this);
+
 
 		initialize(game, config);
 	}
 
 	@Override
-	public void onStartActivityA() {
+	public void onPause(){
+		super.onPause();
+	}
+
+	@Override
+	public void onStartActivityA(MusicPlayer player) {
 		String strReact = "Reaction";
 		Intent intent = new Intent(this, PickChamp.class);
 		intent.putExtra("Res",strReact);
+		intent.putExtra("Position",player.getPosition());
 		startActivity(intent);
 	}
 
@@ -52,6 +62,11 @@ public class AndroidLauncher extends AndroidApplication implements LosuGame.MyGa
 			//intent.putExtra(MY_EXTRA, someOtherParameter);
 		//}
 		//startActivity(intent);
+	}
+
+	@Override
+	public float getPos(){
+		return pos;
 	}
 
 }

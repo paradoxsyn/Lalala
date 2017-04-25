@@ -1,0 +1,54 @@
+tahmbubble.png
+size: 62, 422
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tahmbubble
+  rotate: false
+  xy: 1, 63
+  size: 60, 57
+  orig: 64, 64
+  offset: 0, 4
+  index: 1
+tahmbubble
+  rotate: false
+  xy: 1, 122
+  size: 60, 57
+  orig: 64, 64
+  offset: 0, 4
+  index: 2
+tahmbubble
+  rotate: false
+  xy: 1, 305
+  size: 57, 57
+  orig: 64, 64
+  offset: 3, 4
+  index: 3
+tahmbubble
+  rotate: false
+  xy: 1, 364
+  size: 57, 57
+  orig: 64, 64
+  offset: 3, 4
+  index: 4
+tahmbubble
+  rotate: false
+  xy: 1, 181
+  size: 59, 60
+  orig: 64, 64
+  offset: 3, 1
+  index: 5
+tahmbubble
+  rotate: false
+  xy: 1, 1
+  size: 60, 60
+  orig: 64, 64
+  offset: 3, 1
+  index: 6
+tahmbubble
+  rotate: false
+  xy: 1, 243
+  size: 59, 60
+  orig: 64, 64
+  offset: 3, 1
+  index: 7

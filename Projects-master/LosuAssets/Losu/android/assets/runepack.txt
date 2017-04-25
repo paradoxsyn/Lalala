@@ -1,0 +1,12 @@
+runepack.png
+size: 207, 205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rune1clear
+  rotate: false
+  xy: 1, 1
+  size: 205, 203
+  orig: 238, 212
+  offset: 0, 1
+  index: -1

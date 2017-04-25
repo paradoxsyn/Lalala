@@ -1,0 +1,96 @@
+realmcircle.png
+size: 1677, 129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+realmcircle
+  rotate: false
+  xy: 1, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 1
+realmcircle
+  rotate: false
+  xy: 646, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 2
+realmcircle
+  rotate: false
+  xy: 775, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 3
+realmcircle
+  rotate: false
+  xy: 904, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 4
+realmcircle
+  rotate: false
+  xy: 1033, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 5
+realmcircle
+  rotate: false
+  xy: 1162, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 6
+realmcircle
+  rotate: false
+  xy: 1291, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 7
+realmcircle
+  rotate: false
+  xy: 1420, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 8
+realmcircle
+  rotate: false
+  xy: 1549, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 9
+realmcircle
+  rotate: false
+  xy: 130, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 10
+realmcircle
+  rotate: false
+  xy: 259, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 11
+realmcircle
+  rotate: false
+  xy: 388, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 12
+realmcircle
+  rotate: false
+  xy: 517, 1
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: 13

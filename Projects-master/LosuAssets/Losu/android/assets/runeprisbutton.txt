@@ -1,0 +1,19 @@
+runeprisbutton.png
+size: 132, 66
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+runeprispng
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+runeprispngdark
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

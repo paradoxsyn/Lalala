@@ -1,0 +1,19 @@
+realmwarp.png
+size: 128, 64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+realmwarppng
+  rotate: false
+  xy: 1, 1
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+realmwarppng
+  rotate: false
+  xy: 65, 1
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: 2

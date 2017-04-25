@@ -1,0 +1,40 @@
+runepris.png
+size: 60, 218
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prisanim1
+  rotate: false
+  xy: 1, 49
+  size: 57, 42
+  orig: 64, 64
+  offset: 4, 15
+  index: -1
+prisanim2
+  rotate: false
+  xy: 1, 162
+  size: 56, 55
+  orig: 64, 64
+  offset: 4, 4
+  index: -1
+prisanim3
+  rotate: false
+  xy: 1, 130
+  size: 57, 30
+  orig: 64, 64
+  offset: 2, 18
+  index: -1
+prisanim4
+  rotate: false
+  xy: 1, 1
+  size: 58, 46
+  orig: 64, 64
+  offset: 4, 13
+  index: -1
+prisanim5
+  rotate: false
+  xy: 1, 93
+  size: 57, 35
+  orig: 64, 64
+  offset: 2, 15
+  index: -1

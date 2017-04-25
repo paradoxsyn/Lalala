@@ -1,0 +1,19 @@
+spellfluxbutton.png
+size: 130, 65
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spellfluxpng
+  rotate: false
+  xy: 1, 1
+  size: 63, 63
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+spellfluxpng
+  rotate: false
+  xy: 66, 1
+  size: 63, 63
+  orig: 64, 64
+  offset: 0, 1
+  index: 2

@@ -1,0 +1,33 @@
+runeletterl.png
+size: 88, 193
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lpart1
+  rotate: true
+  xy: 1, 75
+  size: 45, 86
+  orig: 100, 100
+  offset: 35, 7
+  index: -1
+lpart2
+  rotate: true
+  xy: 1, 1
+  size: 26, 85
+  orig: 100, 100
+  offset: 35, 8
+  index: -1
+lpart3
+  rotate: true
+  xy: 1, 29
+  size: 44, 86
+  orig: 100, 100
+  offset: 35, 4
+  index: -1
+runeL2lvl
+  rotate: true
+  xy: 1, 122
+  size: 70, 86
+  orig: 100, 100
+  offset: 30, 7
+  index: -1

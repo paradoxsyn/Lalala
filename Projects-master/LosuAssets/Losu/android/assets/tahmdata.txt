@@ -1,0 +1,40 @@
+tahmdata.png
+size: 385, 66
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TahmKench
+  rotate: false
+  xy: 1, 1
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+TahmKenchCrack
+  rotate: false
+  xy: 78, 1
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+TahmKenchCrack2
+  rotate: false
+  xy: 155, 1
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+TahmKenchCrack3
+  rotate: false
+  xy: 232, 1
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+TahmKenchCrack4
+  rotate: false
+  xy: 309, 1
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
